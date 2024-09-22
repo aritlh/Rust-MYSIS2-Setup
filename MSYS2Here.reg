@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MSYS2 Here]
+@="MSYS2 Here"
+"Icon"="C:\\msys64\\msys2.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\MSYS2 Here\command]
+@="C:\\msys64\\msys2_shell.cmd -mingw64 -here"
+
+[HKEY_CLASSES_ROOT\Directory\shell\MSYS2 Here]
+@="MSYS2 Here"
+"Icon"="C:\\msys64\\msys2.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\MSYS2 Here\command]
+@="C:\\msys64\\msys2_shell.cmd -mingw64 -here"
