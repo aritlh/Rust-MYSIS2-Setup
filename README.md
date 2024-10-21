@@ -7,7 +7,7 @@
 Inside MYSYS2, write the following code:
 ```bash
 pacman -Sy && pacman -Syu
-pacman -S --needed base-devel mingw-w64-x86_64-toolchain mingw-w64-x86_64-rust-src rust-analyzer mingw-w64-x86_64-rust
+pacman -S --needed base-devel mingw-w64-x86_64-toolchain mingw-w64-x86_64-rust-src mingw-w64-x86_64-rust-analyzer mingw-w64-x86_64-rust
 ```
 
 - `base-devel`: Minimal package set for building packages with makepkg
